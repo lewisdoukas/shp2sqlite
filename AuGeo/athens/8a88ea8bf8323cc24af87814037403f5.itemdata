@@ -1,0 +1,105 @@
+{
+    "layers": [
+        {
+            "id": 0,
+            "layerDefinition": {
+                "defaultVisibility": true
+            },
+            "popupInfo": {
+                "description": "Description: {FEAT_SUB_C}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "FID",
+                        "format": {
+                            "digitSeparator": false,
+                            "places": 0
+                        },
+                        "isEditable": false,
+                        "label": "FID",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "UFI",
+                        "format": {
+                            "digitSeparator": false,
+                            "places": 6
+                        },
+                        "isEditable": true,
+                        "label": "UFI",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "UNI",
+                        "format": {
+                            "digitSeparator": false,
+                            "places": 6
+                        },
+                        "isEditable": true,
+                        "label": "UNI",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "LAT",
+                        "format": {
+                            "digitSeparator": false,
+                            "places": 6
+                        },
+                        "isEditable": true,
+                        "label": "LAT",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "LONG",
+                        "format": {
+                            "digitSeparator": false,
+                            "places": 6
+                        },
+                        "isEditable": true,
+                        "label": "LONG",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "MGRS",
+                        "isEditable": true,
+                        "label": "MGRS",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "GENERIC",
+                        "isEditable": true,
+                        "label": "GENERIC",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FULL_NAME",
+                        "isEditable": true,
+                        "label": "FULL_NAME",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FULL_NAME_",
+                        "isEditable": true,
+                        "label": "FULL_NAME_",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FEAT_CLASS",
+                        "isEditable": true,
+                        "label": "FEAT_CLASS",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FEAT_SUB_C",
+                        "isEditable": true,
+                        "label": "FEAT_SUB_C",
+                        "visible": true
+                    }
+                ],
+                "mediaInfos": [
+                ],
+                "showAttachments": false,
+                "title": "<font color='red'>{FEAT_SUB_C}</font><br /><b>{FULL_NAME_}</b>"
+            }
+        }
+    ]
+}

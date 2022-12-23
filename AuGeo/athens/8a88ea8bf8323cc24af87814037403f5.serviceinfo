@@ -1,0 +1,333 @@
+{
+    "layers": [
+        {
+            "advancedEditingCapabilities": {
+                "supportedSqlFormatsInCalculate": [
+                    "standard"
+                ],
+                "supportsAsyncApplyEdits": true,
+                "supportsReturnEditResults": true
+            },
+            "advancedQueryAnalyticCapabilities": {
+                "supportsAsync": true,
+                "supportsLinearRegression": true,
+                "supportsPercentileAnalytic": true
+            },
+            "advancedQueryCapabilities": {
+                "supportedLodTypes": [
+                    "geohash"
+                ],
+                "supportedOperationsWithCacheHint": [
+                    "query",
+                    "queryTopFilter",
+                    "queryAnalytics",
+                    "queryAttachments",
+                    "queryRelated"
+                ],
+                "supportedSpatialAggregationStatistics": [
+                    "EnvelopeAggregate",
+                    "CentroidAggregate",
+                    "ConvexHullAggregate"
+                ],
+                "supportsAdvancedQueryRelated": true,
+                "supportsCountDistinct": true,
+                "supportsDefaultSR": true,
+                "supportsDisjointSpatialRel": true,
+                "supportsDistinct": true,
+                "supportsHavingClause": true,
+                "supportsLod": true,
+                "supportsMaxRecordCountFactor": true,
+                "supportsOrderBy": true,
+                "supportsOutFieldSQLExpression": true,
+                "supportsPagination": true,
+                "supportsPaginationOnAggregatedQueries": true,
+                "supportsPercentileStatistics": true,
+                "supportsQueryAnalytic": true,
+                "supportsQueryAttachmentsCountOnly": true,
+                "supportsQueryRelatedPagination": true,
+                "supportsQueryWithCacheHint": true,
+                "supportsQueryWithDatumTransformation": true,
+                "supportsQueryWithDistance": true,
+                "supportsQueryWithLodSR": false,
+                "supportsQueryWithResultType": true,
+                "supportsReturningGeometryCentroid": false,
+                "supportsReturningQueryExtent": true,
+                "supportsSpatialAggregationStatistics": true,
+                "supportsSqlExpression": true,
+                "supportsStatistics": true,
+                "supportsTopFeaturesQuery": true
+            },
+            "allowGeometryUpdates": true,
+            "capabilities": "Query",
+            "copyrightText": "",
+            "currentVersion": 10.81,
+            "dateFieldsTimeReference": {
+                "respectsDaylightSaving": false,
+                "timeZone": "UTC"
+            },
+            "defaultVisibility": true,
+            "description": "",
+            "displayField": "FULL_NAME",
+            "drawingInfo": {
+                "renderer": {
+                    "symbol": {
+                        "angle": 0,
+                        "color": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "outline": {
+                            "color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "style": "esriSLSSolid",
+                            "type": "esriSLS",
+                            "width": 0.7
+                        },
+                        "size": 4,
+                        "style": "esriSMSCircle",
+                        "type": "esriSMS",
+                        "xoffset": 0,
+                        "yoffset": 0
+                    },
+                    "type": "simple"
+                },
+                "transparency": 0
+            },
+            "editingInfo": {
+                "lastEditDate": 1655720906700
+            },
+            "extent": {
+                "spatialReference": {
+                    "latestWkid": 4326,
+                    "wkid": 4326
+                },
+                "xmax": 24.01210999977673,
+                "xmin": 23.5948889996277,
+                "ymax": 38.129722999616774,
+                "ymin": 37.88844000010596
+            },
+            "fields": [
+                {
+                    "alias": "FID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "name": "FID",
+                    "nullable": false,
+                    "sqlType": "sqlTypeOther",
+                    "type": "esriFieldTypeOID"
+                },
+                {
+                    "alias": "UFI",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "name": "UFI",
+                    "nullable": true,
+                    "sqlType": "sqlTypeOther",
+                    "type": "esriFieldTypeDouble"
+                },
+                {
+                    "alias": "UNI",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "name": "UNI",
+                    "nullable": true,
+                    "sqlType": "sqlTypeOther",
+                    "type": "esriFieldTypeDouble"
+                },
+                {
+                    "alias": "LAT",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "name": "LAT",
+                    "nullable": true,
+                    "sqlType": "sqlTypeOther",
+                    "type": "esriFieldTypeDouble"
+                },
+                {
+                    "alias": "LONG",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "name": "LONG",
+                    "nullable": true,
+                    "sqlType": "sqlTypeOther",
+                    "type": "esriFieldTypeDouble"
+                },
+                {
+                    "alias": "MGRS",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "length": 80,
+                    "name": "MGRS",
+                    "nullable": true,
+                    "sqlType": "sqlTypeOther",
+                    "type": "esriFieldTypeString"
+                },
+                {
+                    "alias": "GENERIC",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "length": 80,
+                    "name": "GENERIC",
+                    "nullable": true,
+                    "sqlType": "sqlTypeOther",
+                    "type": "esriFieldTypeString"
+                },
+                {
+                    "alias": "FULL_NAME",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "length": 80,
+                    "name": "FULL_NAME",
+                    "nullable": true,
+                    "sqlType": "sqlTypeOther",
+                    "type": "esriFieldTypeString"
+                },
+                {
+                    "alias": "FULL_NAME_",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "length": 80,
+                    "name": "FULL_NAME_",
+                    "nullable": true,
+                    "sqlType": "sqlTypeOther",
+                    "type": "esriFieldTypeString"
+                },
+                {
+                    "alias": "FEAT_CLASS",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "length": 80,
+                    "name": "FEAT_CLASS",
+                    "nullable": true,
+                    "sqlType": "sqlTypeOther",
+                    "type": "esriFieldTypeString"
+                },
+                {
+                    "alias": "FEAT_SUB_C",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "length": 80,
+                    "name": "FEAT_SUB_C",
+                    "nullable": true,
+                    "sqlType": "sqlTypeOther",
+                    "type": "esriFieldTypeString"
+                }
+            ],
+            "geometryType": "esriGeometryPoint",
+            "globalIdField": "",
+            "hasAttachments": false,
+            "hasContingentValuesDefinition": false,
+            "hasM": false,
+            "hasMetadata": true,
+            "hasStaticData": false,
+            "hasZ": false,
+            "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+            "id": 0,
+            "indexes": [
+                {
+                    "description": "",
+                    "fields": "FID",
+                    "isAscending": true,
+                    "isUnique": true,
+                    "name": "PK__ATHENS_A__C1BEA5A2F2D3940A"
+                },
+                {
+                    "description": "",
+                    "fields": "Shape",
+                    "isAscending": true,
+                    "isUnique": false,
+                    "name": "user_56414.ATHENS_ATHENS_Shape_sidx"
+                }
+            ],
+            "infoInEstimates": [
+                "extent",
+                "count"
+            ],
+            "isDataVersioned": false,
+            "maxRecordCount": 2000,
+            "maxRecordCountFactor": 1,
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "athens",
+            "objectIdField": "FID",
+            "preferredTimeReference": null,
+            "relationships": [
+            ],
+            "standardMaxRecordCount": 32000,
+            "standardMaxRecordCountNoGeometry": 32000,
+            "supportedAppendFormats": "sqlite,gpkg,shapefile,filegdb,featureCollection,geojson,csv,excel",
+            "supportedContingentValuesFormats": "JSON, PBF",
+            "supportedExportFormats": "csv,shapefile,sqlite,gpkg,filegdb,featureCollection,geojson,excel",
+            "supportedQueryFormats": "JSON, geoJSON, PBF",
+            "supportedSyncDataOptions": 4,
+            "supportsASyncCalculate": true,
+            "supportsAdvancedQueries": true,
+            "supportsAppend": true,
+            "supportsApplyEditsWithGlobalIds": false,
+            "supportsAttachmentsByUploadId": true,
+            "supportsAttachmentsResizing": true,
+            "supportsCalculate": true,
+            "supportsCoordinatesQuantization": true,
+            "supportsExceedsLimitStatistics": true,
+            "supportsFieldDescriptionProperty": true,
+            "supportsLayerOverrides": true,
+            "supportsQuantizationEditMode": true,
+            "supportsReturningQueryGeometry": true,
+            "supportsRollbackOnFailureParameter": true,
+            "supportsStatistics": true,
+            "supportsTilesAndBasicQueriesMode": true,
+            "supportsTruncate": false,
+            "supportsValidateSql": true,
+            "templates": [
+                {
+                    "description": "",
+                    "drawingTool": "esriFeatureEditToolPoint",
+                    "name": "athens",
+                    "prototype": {
+                        "attributes": {
+                            "FEAT_CLASS": null,
+                            "FEAT_SUB_C": null,
+                            "FULL_NAME": null,
+                            "FULL_NAME_": null,
+                            "GENERIC": null,
+                            "LAT": null,
+                            "LONG": null,
+                            "MGRS": null,
+                            "UFI": null,
+                            "UNI": null
+                        }
+                    }
+                }
+            ],
+            "tileMaxRecordCount": 8000,
+            "type": "Feature Layer",
+            "typeIdField": "",
+            "types": [
+            ],
+            "uniqueIdField": {
+                "isSystemMaintained": true,
+                "name": "FID"
+            },
+            "useStandardizedQueries": true
+        }
+    ],
+    "tables": [
+    ]
+}

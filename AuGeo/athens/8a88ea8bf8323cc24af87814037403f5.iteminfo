@@ -1,0 +1,72 @@
+{
+    "access": "org",
+    "accessInformation": "",
+    "advancedSettings": null,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "commentsEnabled": false,
+    "created": 1655720641000,
+    "culture": "en-us",
+    "description": "",
+    "documentation": null,
+    "extent": [
+        [
+            23.5948889996277,
+            37.88844000010596
+        ],
+        [
+            24.01210999977673,
+            38.129722999616774
+        ]
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "f1921f195cc04ede934d5b269963f934",
+    "industries": [
+    ],
+    "isOrgItem": true,
+    "itemControl": "admin",
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "licenseInfo": "",
+    "listed": false,
+    "modified": 1655720908000,
+    "name": "athens",
+    "numComments": 0,
+    "numRatings": 0,
+    "numViews": 2,
+    "owner": "hliasduke_gys",
+    "ownerFolder": "b1af081643b54451b8cfe1af8cb46614",
+    "properties": null,
+    "protected": false,
+    "proxyFilter": null,
+    "scoreCompleteness": 23,
+    "screenshots": [
+    ],
+    "size": 401408,
+    "snippet": "This is a test",
+    "spatialReference": "4326",
+    "subInfo": 0,
+    "tags": [
+        "AuGeo"
+    ],
+    "thumbnail": "thumbnail/thumbnail.png",
+    "title": "athens",
+    "type": "Feature Service",
+    "typeKeywords": [
+        "ArcGIS Server",
+        "Data",
+        "Feature Access",
+        "Feature Service",
+        "Metadata",
+        "Service",
+        "Singlelayer",
+        "Hosted Service"
+    ],
+    "url": "https://services3.arcgis.com/XHzOnTCjjYWQyVf4/arcgis/rest/services/athens/FeatureServer"
+}
