@@ -79,7 +79,7 @@ def main():
     <imported_geonames_shapefile(.shp)>   <directory_of_AuGeo_sqlite>   (<exported_geonames_sqlite(.sqlite)>)
 
     Execution: 
-    python geonames_shp2sqlite_v1.py shp/athens.shp athens
+    python geonames_shp2sqlite.py athens.shp athens
     """
     try:
         print(banner)
